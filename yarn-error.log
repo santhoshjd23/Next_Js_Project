@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Santhosh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D prisma
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\app\Santhosh\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\sbt\bin;C:\Python27;C:\Program Files\gradle-7.6-bin\gradle-7.6\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Program Files\nodejs\;C:\Users\Santhosh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Santhosh\AppData\Local\Programs\Python\Python39\;C:\Users\Santhosh\AppData\Local\Microsoft\WindowsApps;C:\Users\Santhosh\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\FFmpeg\bin;C:\FFmpeg\ffmpeg-N-99728-gd6e903b09b-win64-gpl-shared-vulkan\bin;C:\sox-14-4-2;C:\Users\Santhosh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Santhosh\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\Santhosh\Downloads\typesafe-activator-1.3.12\activator-dist-1.3.12\bin;C:\apache-cassandra-3.11.10\bin;C:\bat files;C:\Program Files\gradle-7.6-bin\gradle-7.6\bin;;C:\Users\Santhosh\AppData\Local\Programs\EmEditor;C:\Users\Santhosh\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\React_workspace\first_project\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "first_project",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "13.4.3",
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+      "eslint": "8.40.0",
+      "eslint-config-next": "13.4.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
